@@ -9,7 +9,7 @@ INSTALLATION
 
 Put this folder somewhere on your Max search path (see Options -> File Preferences)
 
-Get started with the help patches for launchpad.in and launchpad.out.
+Get started with the maxhelp files for launchpad.in and launchpad.out.
 
 
 ------------------------
