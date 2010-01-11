@@ -1,0 +1,33 @@
+Launchpad objects for Max 5 and Max for Live
+version 1.0
+
+by Adam Murray
+
+
+------------------------
+INSTALLATION
+
+Put this folder somewhere on your Max search path (see Options -> File Preferences)
+
+Get started with the help patches for launchpad.in and launchpad.out.
+
+
+------------------------
+ABOUT
+
+The goal is to make it easier to customize the Launchpad by hiding the details of the MIDI protocol.
+Simply think in terms of button position and color:
+- homogeneous 9x9 grid (it doesn't distinguish the topmost row from other buttons)
+- 7 states per button: dim and bright versions of green, amber, and red; or off
+
+[ launchpad.in ] receives column and row index when you press/release buttons
+
+[ launchpad.out ] turns buttons on or off, sets color per button
+
+
+------------------------
+TROUBLESHOOTING
+
+Not working? Try this:
+- Connect the Launchpad before starting the Max 5 application
+- Hit the user1 or user2 button on the Launchpad
