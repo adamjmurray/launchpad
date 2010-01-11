@@ -174,13 +174,13 @@
 ,
 					"patching_rect" : [ 373.0, 100.0, 126.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 11.595187,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 11.595187,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 11.595187,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p multiple_launchpads"
@@ -281,7 +281,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 220.0, 50.0, 18.0 ]
+					"patching_rect" : [ 32.0, 220.0, 50.0, 18.0 ],
+					"text" : "1 7 1"
 				}
 
 			}
@@ -300,7 +301,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "launchpad.out", "matrixctrl", "midiout", "midiinfo", "noteout", "ctlout" ],
+					"args" : [ "launchpad.in", "matrixctrl", "midiout", "midiinfo", "noteout", "ctlout" ],
 					"id" : "obj-10",
 					"maxclass" : "bpatcher",
 					"name" : "launchpad.seealso.maxpat",

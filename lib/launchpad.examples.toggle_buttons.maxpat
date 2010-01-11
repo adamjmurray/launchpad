@@ -21,6 +21,21 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"id" : "obj-8",
+					"items" : [ "GREEN", ",", "AMBER", ",", "RED", ",", "green", ",", "amber", ",", "red" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"patching_rect" : [ 54.0, 286.0, 100.0, 20.0 ],
+					"types" : [  ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
@@ -139,21 +154,6 @@
 					"outlettype" : [ "int", "", "int" ],
 					"patching_rect" : [ 29.0, 90.0, 76.0, 20.0 ],
 					"text" : "launchpad.in"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.595187,
-					"id" : "obj-8",
-					"items" : [ "GREEN", ",", "AMBER", ",", "RED" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 54.0, 290.0, 100.0, 20.0 ],
-					"types" : [  ]
 				}
 
 			}

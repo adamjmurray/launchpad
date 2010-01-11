@@ -52,12 +52,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-8",
-					"items" : [ "GREEN", ",", "AMBER", ",", "RED" ],
+					"items" : [ "GREEN", ",", "AMBER", ",", "RED", ",", "green", ",", "amber", ",", "red" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 134.0, 93.0, 100.0, 20.0 ],
+					"patching_rect" : [ 161.0, 96.0, 100.0, 20.0 ],
 					"types" : [  ]
 				}
 
@@ -70,8 +70,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 122.0, 105.0, 20.0 ],
-					"text" : "launchpad.out"
+					"patching_rect" : [ 46.0, 130.0, 149.0, 20.0 ],
+					"text" : "launchpad.out @contrast 6"
 				}
 
 			}
@@ -84,7 +84,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "int" ],
-					"patching_rect" : [ 48.0, 94.0, 76.0, 20.0 ],
+					"patching_rect" : [ 46.0, 97.0, 90.0, 20.0 ],
 					"text" : "launchpad.in"
 				}
 
@@ -199,8 +199,8 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 3 ],
 					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-8", 0 ]
+					"midpoints" : [ 211.0, 125.0, 185.5, 125.0 ],
+					"source" : [ "obj-8", 1 ]
 				}
 
 			}

@@ -20,6 +20,49 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-14",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 292.0, 210.0, 15.0, 15.0 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"id" : "obj-13",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 24.0, 249.0, 126.0, 60.0 ],
+					"presentation_rect" : [ 22.0, 247.0, 0.0, 0.0 ],
+					"text" : "Also make sure you connect the Launchpad before opening this patch."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"id" : "obj-7",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 24.0, 165.0, 140.0, 60.0 ],
+					"text" : "You may need to press the User1 or User2 button on the Launchpad for this object to work"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-12",
@@ -134,13 +177,13 @@
 ,
 					"patching_rect" : [ 350.0, 122.0, 126.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 11.595187,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 11.595187,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 11.595187,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p multiple_launchpads"
@@ -156,7 +199,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 139.0, 186.0, 76.0, 20.0 ],
+					"patching_rect" : [ 179.0, 184.0, 76.0, 20.0 ],
 					"text" : "pack 0 0 0"
 				}
 
@@ -171,7 +214,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "int" ],
-					"patching_rect" : [ 139.0, 158.0, 76.0, 20.0 ],
+					"patching_rect" : [ 179.0, 156.0, 76.0, 20.0 ],
 					"text" : "launchpad.in"
 				}
 
@@ -184,7 +227,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "list" ],
-					"patching_rect" : [ 139.0, 212.0, 128.0, 128.0 ],
+					"patching_rect" : [ 179.0, 210.0, 128.0, 128.0 ],
 					"rows" : 9
 				}
 
